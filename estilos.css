@@ -1,0 +1,32 @@
+* {
+  font-family: sans-serif;
+}
+
+
+/* Estilos para el contenedor del iframe */
+.pdf-container {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* Proporción 16:9 para un contenedor responsive */
+}
+
+/* Estilos para el iframe */
+.pdf-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.title {
+  font-weight: 800;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.title-pdf {
+  font-weight: 600;
+  font-size: 1.5rem;
+  text-align: center;
+}
